@@ -1,5 +1,10 @@
+"""
+Created on Mon Feb 03 2025, 15:33:47
+
+@author: Amoy Ashesh
+"""
 from sklearn.model_selection import train_test_split
-from parameters import training
+from parameters import training, algs
 
 def split(data):
     """
@@ -25,4 +30,3 @@ def split(data):
     y = data[training.target_column]
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=training.test_split, random_state=training.training_random_state)
     return X_train, X_test, y_train, y_test
-
