@@ -6,3 +6,4 @@ models/raw_models.pkl
 GaiaSource_000000-003111.csv
 data\wide_binary_eccentricity.fits
 NssTwoBodyOrbit_1.csv
+data/wide_binary_eccentricity.fits
