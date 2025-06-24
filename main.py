@@ -15,8 +15,10 @@ if instruct.load_data:
 else:
     # Mark data
     dt = mark_data(save_data=True)
+
 # Split the dataset     
 X_train, X_test, y_train, y_test = split(dt)
+
 # Training
 if instruct.load_models:
     # Load pretrained models
